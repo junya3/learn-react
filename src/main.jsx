@@ -4,7 +4,7 @@ import Count from '/src/Count.jsx';
 import StateObject from '/src/StateObject';
 import AnimalList from '/src/AnimalList';
 import AnimalSearch from '/src/AnimalSearch';
-import ImportCss from '/src/importCss';
+import ImportCss from '/src/ImportCss';
 import StyledComponents from '/src/StyledComponents';
 import UseRef from '/src/UseRef';
 import UseReducer from '/src/UseReducer';
