@@ -8,7 +8,7 @@ const ImportCss = ({ title }) => {
   };
   return (
     <>
-      <div className="container">
+      <div className='container'>
         <h2>{title}</h2>
         <p>
           ボタンが押されるとuseStateで設定したfalseがtrueになりクラスとテキストが変更される

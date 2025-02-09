@@ -48,21 +48,21 @@ const TestReducer = ({ title }) => {
 
   return (
     <>
-      <div className="container">
+      <div className='container'>
         <h2>{title}</h2>
-        <label htmlFor="a">number A</label>
+        <label htmlFor='a'>number A</label>
         <input
-          type="number"
-          name="a"
-          id="a"
+          type='number'
+          name='a'
+          id='a'
           value={state.a}
           onChange={onClickChange}
         />
-        <label htmlFor="b">number B</label>
+        <label htmlFor='b'>number B</label>
         <input
-          type="number"
-          name="b"
-          id="b"
+          type='number'
+          name='b'
+          id='b'
           value={state.b}
           onChange={onClickChange}
         />

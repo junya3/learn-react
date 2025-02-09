@@ -35,7 +35,7 @@ const StyledComponents = ({ title }) => {
   const [isSelected02, setIsSelected02] = useState(false);
 
   return (
-    <div className="container">
+    <div className='container'>
       <h2>{title}</h2>
       <p>propsも渡せるので良いですね</p>
       <FlexBox>

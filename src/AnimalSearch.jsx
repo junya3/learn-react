@@ -9,9 +9,9 @@ const AnimalSearch = ({ title }) => {
   };
 
   return (
-    <div className="container">
+    <div className='container'>
       <h2>{title}</h2>
-      <input type="text" value={filterVal} onChange={search} />
+      <input type='text' value={filterVal} onChange={search} />
       <ul>
         {animals
           .filter((animal) => animal.indexOf(filterVal) !== -1)

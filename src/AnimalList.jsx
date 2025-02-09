@@ -4,7 +4,7 @@ const AnimalList = ({ title }) => {
   const animals = ['dog', 'cat', 'elephant'];
 
   return (
-    <div className="container">
+    <div className='container'>
       <h2>{title}</h2>
       <ul>
         {animals.map((animal, index) => (
