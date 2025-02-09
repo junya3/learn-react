@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+button {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: #333;
+
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  transition: color 0.5s, background 0.5s, width 0.5s;
+
+  &.selected {
+    background: #333;
+    color: #fff;
+  }
+}
