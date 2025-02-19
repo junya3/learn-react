@@ -9,6 +9,7 @@ import StyledComponents from '/src/StyledComponents';
 import UseRef from '/src/UseRef';
 import UseReducer from '/src/UseReducer';
 import TestReducer from '/src/TestReducer';
+import UseContext from '/src/UseContext';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,5 +22,6 @@ createRoot(document.getElementById('root')).render(
     <UseRef title='useRefを使用した属性の変更' />
     <UseReducer title='useReducer()の使い方' />
     <TestReducer title='useReducer()のテスト' />
+    <UseContext title='useContext()の使い方' />
   </StrictMode>
 );
