@@ -10,6 +10,7 @@ import UseRef from '/src/UseRef';
 import UseReducer from '/src/UseReducer';
 import TestReducer from '/src/TestReducer';
 import UseContext from '/src/UseContext';
+import ContextState from '/src/ContextState';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -23,5 +24,6 @@ createRoot(document.getElementById('root')).render(
     <UseReducer title='useReducer()の使い方' />
     <TestReducer title='useReducer()のテスト' />
     <UseContext title='useContext()の使い方' />
+    <ContextState title='contextとstateの合わせ技' />
   </StrictMode>
 );
