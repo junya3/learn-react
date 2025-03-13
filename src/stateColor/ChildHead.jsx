@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Color } from '../stateColor.jsx';
+import { Color } from '/src/StateColor.jsx';
 
 const ChildHead = () => {
   const { colors, state, setState } = useContext(Color);
