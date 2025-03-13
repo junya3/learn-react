@@ -11,6 +11,7 @@ import UseReducer from '/src/UseReducer';
 import TestReducer from '/src/TestReducer';
 import UseContext from '/src/UseContext';
 import ContextState from '/src/ContextState';
+import StateColor from '/src/StateColor';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,5 +26,6 @@ createRoot(document.getElementById('root')).render(
     <TestReducer title='useReducer()のテスト' />
     <UseContext title='useContext()の使い方' />
     <ContextState title='contextとstateの合わせ技' />
+    <StateColor title='stateで色を変更' />
   </StrictMode>
 );
